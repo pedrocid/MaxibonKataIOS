@@ -36,5 +36,17 @@ class KarumiHQsSpec: XCTestCase {
             return karumiHQs.maxibonsLeft > 2
             
         }
+        
+        property("if some karumies take maxibons, remaining maxibons is always > 2") <- forAll {
+            
+            (developers: ArrayOf<Developer>) in
+            
+            let karumiHQs = KarumiHQs()
+            
+            karumiHQs.openFridge(developers.getArray)
+            
+            return karumiHQs.maxibonsLeft > 2
+            
+        }
     }
 }
