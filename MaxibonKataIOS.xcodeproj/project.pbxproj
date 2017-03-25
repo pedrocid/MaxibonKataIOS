@@ -21,6 +21,7 @@
 		EBCD242B1D24575F0007923F /* Slack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCD242A1D24575F0007923F /* Slack.swift */; };
 		EBCD242E1D24579D0007923F /* MockSlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCD242D1D24579D0007923F /* MockSlack.swift */; };
 		F5426B5E1E867E2100A321D0 /* DeveloperSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5426B5D1E867E2100A321D0 /* DeveloperSpec.swift */; };
+		F5426B601E86871C00A321D0 /* KarumiHQsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5426B5F1E86871C00A321D0 /* KarumiHQsSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		EBCD242A1D24575F0007923F /* Slack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slack.swift; sourceTree = "<group>"; };
 		EBCD242D1D24579D0007923F /* MockSlack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockSlack.swift; sourceTree = "<group>"; };
 		F5426B5D1E867E2100A321D0 /* DeveloperSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeveloperSpec.swift; sourceTree = "<group>"; };
+		F5426B5F1E86871C00A321D0 /* KarumiHQsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KarumiHQsSpec.swift; sourceTree = "<group>"; };
 		FC8926FF8C641D2683EB9533 /* Pods-MaxibonKataIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxibonKataIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaxibonKataIOSTests/Pods-MaxibonKataIOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				F5426B5D1E867E2100A321D0 /* DeveloperSpec.swift */,
+				F5426B5F1E86871C00A321D0 /* KarumiHQsSpec.swift */,
 				EBCD242C1D24578C0007923F /* Test Doubles */,
 				EBC26D311D24446700838900 /* Generators */,
 				EBC26D211D24415F00838900 /* Info.plist */,
@@ -395,6 +398,7 @@
 			files = (
 				EBCD24261D244F210007923F /* ArbitraryDeveloper.swift in Sources */,
 				F5426B5E1E867E2100A321D0 /* DeveloperSpec.swift in Sources */,
+				F5426B601E86871C00A321D0 /* KarumiHQsSpec.swift in Sources */,
 				EBCD242E1D24579D0007923F /* MockSlack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

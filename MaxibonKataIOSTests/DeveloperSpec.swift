@@ -32,4 +32,17 @@ class DeveloperSpec: XCTestCase {
             return developer.numberOfMaxibonsToGet >= 0
         }
     }
+    
+    
+    func testConstructDeveloperWithZeroOrPositiveNumberOfMaxibons(){
+    
+        XCTAssertTrue(Karumies.Alberto.numberOfMaxibonsToGet == 1)
+        XCTAssertTrue(Karumies.Pedro.numberOfMaxibonsToGet == 3)
+        XCTAssertTrue(Karumies.Davide.numberOfMaxibonsToGet == 0)
+        XCTAssertTrue(Karumies.Jorge.numberOfMaxibonsToGet == 2)
+        XCTAssertTrue(Karumies.Sergio.numberOfMaxibonsToGet == 1)
+        XCTAssertTrue(Karumies.Fran.numberOfMaxibonsToGet == 1)
+    
+    }
+    
 }
