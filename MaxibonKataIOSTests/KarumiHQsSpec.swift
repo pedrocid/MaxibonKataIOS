@@ -48,5 +48,20 @@ class KarumiHQsSpec: XCTestCase {
             return karumiHQs.maxibonsLeft > 2
             
         }
+        
+        property("if maxibons left > 2, message is not sent ") <- forAll(Developer.arbitraryNotSoHungry) {
+            
+            (developer: Developer) in
+            
+            let mockChat = MockChat()
+            let karumiHQs = KarumiHQs(chat: mockChat)
+            
+            karumiHQs.openFridge(developer)
+            
+            let expectedResult = mockChat.messageSent == nil
+            mockChat.messageSent = nil
+            return expectedResult
+            
+        }
     }
 }
