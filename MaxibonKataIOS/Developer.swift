@@ -15,7 +15,7 @@ public struct Developer {
 
     init(name: String, numberOfMaxibonsToGet: Int) {
         self.name = name
-        self.numberOfMaxibonsToGet = numberOfMaxibonsToGet < 0 ? 0 : numberOfMaxibonsToGet
+        self.numberOfMaxibonsToGet =  numberOfMaxibonsToGet < 0 ? 0 : numberOfMaxibonsToGet
     }
 
 }
